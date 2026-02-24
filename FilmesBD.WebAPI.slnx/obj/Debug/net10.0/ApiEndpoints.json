@@ -1,0 +1,18 @@
+[
+  {
+    "ContainingType": "FilmesBD.WebAPI.slnx.Controllers.GeneroController",
+    "Method": "Post",
+    "RelativePath": "api/Genero",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "novoGenero",
+        "Type": "FilmesBD.WebAPI.slnx.Models.Genero",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

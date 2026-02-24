@@ -1,0 +1,92 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\45193262813\\Desktop\\FilmesBD.WebAPI.slnx\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6FE47271-CE41-6C75-3DA5-ED519FFBA6E8}|FilmesBD.WebAPI.slnx.csproj|c:\\users\\45193262813\\desktop\\filmesbd.webapi.slnx\\controllers\\generocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FE47271-CE41-6C75-3DA5-ED519FFBA6E8}|FilmesBD.WebAPI.slnx.csproj|solutionrelative:controllers\\generocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FE47271-CE41-6C75-3DA5-ED519FFBA6E8}|FilmesBD.WebAPI.slnx.csproj|c:\\users\\45193262813\\desktop\\filmesbd.webapi.slnx\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FE47271-CE41-6C75-3DA5-ED519FFBA6E8}|FilmesBD.WebAPI.slnx.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FE47271-CE41-6C75-3DA5-ED519FFBA6E8}|FilmesBD.WebAPI.slnx.csproj|c:\\users\\45193262813\\desktop\\filmesbd.webapi.slnx\\repositories\\generorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FE47271-CE41-6C75-3DA5-ED519FFBA6E8}|FilmesBD.WebAPI.slnx.csproj|solutionrelative:repositories\\generorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FE47271-CE41-6C75-3DA5-ED519FFBA6E8}|FilmesBD.WebAPI.slnx.csproj|c:\\users\\45193262813\\desktop\\filmesbd.webapi.slnx\\repositories\\filmerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FE47271-CE41-6C75-3DA5-ED519FFBA6E8}|FilmesBD.WebAPI.slnx.csproj|solutionrelative:repositories\\filmerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GeneroController.cs",
+              "DocumentMoniker": "C:\\Users\\45193262813\\Desktop\\FilmesBD.WebAPI.slnx\\Controllers\\GeneroController.cs",
+              "RelativeDocumentMoniker": "Controllers\\GeneroController.cs",
+              "ToolTip": "C:\\Users\\45193262813\\Desktop\\FilmesBD.WebAPI.slnx\\Controllers\\GeneroController.cs",
+              "RelativeToolTip": "Controllers\\GeneroController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-19T19:21:29.324Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FilmeRepository.cs",
+              "DocumentMoniker": "C:\\Users\\45193262813\\Desktop\\FilmesBD.WebAPI.slnx\\Repositories\\FilmeRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\FilmeRepository.cs",
+              "ToolTip": "C:\\Users\\45193262813\\Desktop\\FilmesBD.WebAPI.slnx\\Repositories\\FilmeRepository.cs",
+              "RelativeToolTip": "Repositories\\FilmeRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-19T18:56:59.856Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GeneroRepository.cs",
+              "DocumentMoniker": "C:\\Users\\45193262813\\Desktop\\FilmesBD.WebAPI.slnx\\Repositories\\GeneroRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\GeneroRepository.cs",
+              "ToolTip": "C:\\Users\\45193262813\\Desktop\\FilmesBD.WebAPI.slnx\\Repositories\\GeneroRepository.cs",
+              "RelativeToolTip": "Repositories\\GeneroRepository.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAowDgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-19T18:54:17.673Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\45193262813\\Desktop\\FilmesBD.WebAPI.slnx\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\45193262813\\Desktop\\FilmesBD.WebAPI.slnx\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-19T17:46:24.995Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

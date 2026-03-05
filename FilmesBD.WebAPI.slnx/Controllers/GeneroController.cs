@@ -16,7 +16,35 @@ public class GeneroController : ControllerBase
         _generoRepository = generoRepository; 
     }
 
+    [HttpGet]
+    public IActionResult Get()
+    {
+        try
+        {
+            return Ok(_generoRepository.Listar());
+        }
+        catch (Exception ex)
+        {
+            return BadRequest(ex.Message);
+        }
+    }
+
+    [HttpGet("{id}")]
+    public IActionResult GetbyId(Guid id)
+    {
+        try
+        {
+            return Ok(_generoRepository.BuscarPorId(id));
+        }
+        catch (Exception e)
+        {
+            return BadRequest(e.Message);
+        }
+    }
+
+
     [HttpPost]
+
     public IActionResult Post(Genero novoGenero)
     {
         try
@@ -28,6 +56,50 @@ public class GeneroController : ControllerBase
         catch(Exception ex)
         {
             return BadRequest(ex.Message);
+        }
+    }
+
+    [HttpPut("{Id}")]
+
+    public IActionResult Put(Guid id, Genero generoAtualizado)
+    {
+        try
+        {
+            _generoRepository.AtualizarIdUrl(id, generoAtualizado);
+            return NoContent();
+        }
+        catch (Exception erro)
+        {
+            return BadRequest(erro.Message);
+        }
+    }
+
+    [HttpPut]
+
+    public IActionResult PutBody(Genero generoAtualizado)
+    {
+        try
+        {
+            _generoRepository.AtualizarIdCorpo(generoAtualizado);
+            return NoContent();
+        }
+        catch (Exception erro)
+        {
+         return BadRequest(erro.Message);
+        }
+    }
+
+    [HttpDelete("{id}")]
+    public IActionResult Delete(Guid id)
+    {
+        try
+        {
+            _generoRepository.Deletar(id);
+            return NoContent();
+        }
+        catch (Exception erro)
+        {
+            return BadRequest(erro.Message);
         }
     }
 }

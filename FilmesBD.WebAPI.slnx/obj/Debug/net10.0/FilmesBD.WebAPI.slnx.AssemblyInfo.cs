@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FilmesBD.WebAPI.slnx")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0a222603a3cfe6ef21a5e1a60417ec5682823aac")]
 [assembly: System.Reflection.AssemblyProductAttribute("FilmesBD.WebAPI.slnx")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FilmesBD.WebAPI.slnx")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

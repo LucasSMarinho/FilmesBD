@@ -1,22 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\45193262813\\Desktop\\FilmesBD.WebAPI.slnx\\",
+  "WorkspaceRootPath": "C:\\Users\\45193262813\\Desktop\\FilmesBD\\FilmesBD.WebAPI.slnx\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6FE47271-CE41-6C75-3DA5-ED519FFBA6E8}|FilmesBD.WebAPI.slnx.csproj|c:\\users\\45193262813\\desktop\\filmesbd.webapi.slnx\\controllers\\generocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6FE47271-CE41-6C75-3DA5-ED519FFBA6E8}|FilmesBD.WebAPI.slnx.csproj|solutionrelative:controllers\\generocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6FE47271-CE41-6C75-3DA5-ED519FFBA6E8}|FilmesBD.WebAPI.slnx.csproj|c:\\users\\45193262813\\desktop\\filmesbd\\filmesbd.webapi.slnx\\controllers\\filmecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FE47271-CE41-6C75-3DA5-ED519FFBA6E8}|FilmesBD.WebAPI.slnx.csproj|solutionrelative:controllers\\filmecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6FE47271-CE41-6C75-3DA5-ED519FFBA6E8}|FilmesBD.WebAPI.slnx.csproj|c:\\users\\45193262813\\desktop\\filmesbd.webapi.slnx\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6FE47271-CE41-6C75-3DA5-ED519FFBA6E8}|FilmesBD.WebAPI.slnx.csproj|c:\\users\\45193262813\\desktop\\filmesbd\\filmesbd.webapi.slnx\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6FE47271-CE41-6C75-3DA5-ED519FFBA6E8}|FilmesBD.WebAPI.slnx.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6FE47271-CE41-6C75-3DA5-ED519FFBA6E8}|FilmesBD.WebAPI.slnx.csproj|c:\\users\\45193262813\\desktop\\filmesbd.webapi.slnx\\repositories\\generorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6FE47271-CE41-6C75-3DA5-ED519FFBA6E8}|FilmesBD.WebAPI.slnx.csproj|solutionrelative:repositories\\generorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6FE47271-CE41-6C75-3DA5-ED519FFBA6E8}|FilmesBD.WebAPI.slnx.csproj|c:\\users\\45193262813\\desktop\\filmesbd\\filmesbd.webapi.slnx\\dto\\filmedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FE47271-CE41-6C75-3DA5-ED519FFBA6E8}|FilmesBD.WebAPI.slnx.csproj|solutionrelative:dto\\filmedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6FE47271-CE41-6C75-3DA5-ED519FFBA6E8}|FilmesBD.WebAPI.slnx.csproj|c:\\users\\45193262813\\desktop\\filmesbd.webapi.slnx\\repositories\\filmerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6FE47271-CE41-6C75-3DA5-ED519FFBA6E8}|FilmesBD.WebAPI.slnx.csproj|solutionrelative:repositories\\filmerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6FE47271-CE41-6C75-3DA5-ED519FFBA6E8}|FilmesBD.WebAPI.slnx.csproj|c:\\users\\45193262813\\desktop\\filmesbd\\filmesbd.webapi.slnx\\controllers\\generocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FE47271-CE41-6C75-3DA5-ED519FFBA6E8}|FilmesBD.WebAPI.slnx.csproj|solutionrelative:controllers\\generocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FE47271-CE41-6C75-3DA5-ED519FFBA6E8}|FilmesBD.WebAPI.slnx.csproj|c:\\users\\45193262813\\desktop\\filmesbd\\filmesbd.webapi.slnx\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FE47271-CE41-6C75-3DA5-ED519FFBA6E8}|FilmesBD.WebAPI.slnx.csproj|solutionrelative:controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FE47271-CE41-6C75-3DA5-ED519FFBA6E8}|FilmesBD.WebAPI.slnx.csproj|c:\\users\\45193262813\\desktop\\filmesbd\\filmesbd.webapi.slnx\\utils\\criptografia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FE47271-CE41-6C75-3DA5-ED519FFBA6E8}|FilmesBD.WebAPI.slnx.csproj|solutionrelative:utils\\criptografia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,63 +34,90 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 6,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\45193262813\\Desktop\\FilmesBD\\FilmesBD.WebAPI.slnx\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\45193262813\\Desktop\\FilmesBD\\FilmesBD.WebAPI.slnx\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAADwv28AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-03T13:42:47.561Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "GeneroController.cs",
-              "DocumentMoniker": "C:\\Users\\45193262813\\Desktop\\FilmesBD.WebAPI.slnx\\Controllers\\GeneroController.cs",
-              "RelativeDocumentMoniker": "Controllers\\GeneroController.cs",
-              "ToolTip": "C:\\Users\\45193262813\\Desktop\\FilmesBD.WebAPI.slnx\\Controllers\\GeneroController.cs",
-              "RelativeToolTip": "Controllers\\GeneroController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-19T19:21:29.324Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "FilmeRepository.cs",
-              "DocumentMoniker": "C:\\Users\\45193262813\\Desktop\\FilmesBD.WebAPI.slnx\\Repositories\\FilmeRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\FilmeRepository.cs",
-              "ToolTip": "C:\\Users\\45193262813\\Desktop\\FilmesBD.WebAPI.slnx\\Repositories\\FilmeRepository.cs",
-              "RelativeToolTip": "Repositories\\FilmeRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAAAAAAAAAAAA==",
+              "Title": "GeneroController.cs",
+              "DocumentMoniker": "C:\\Users\\45193262813\\Desktop\\FilmesBD\\FilmesBD.WebAPI.slnx\\Controllers\\GeneroController.cs",
+              "RelativeDocumentMoniker": "Controllers\\GeneroController.cs",
+              "ToolTip": "C:\\Users\\45193262813\\Desktop\\FilmesBD\\FilmesBD.WebAPI.slnx\\Controllers\\GeneroController.cs",
+              "RelativeToolTip": "Controllers\\GeneroController.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAIwCwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-19T18:56:59.856Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-03T16:36:44.084Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "GeneroRepository.cs",
-              "DocumentMoniker": "C:\\Users\\45193262813\\Desktop\\FilmesBD.WebAPI.slnx\\Repositories\\GeneroRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\GeneroRepository.cs",
-              "ToolTip": "C:\\Users\\45193262813\\Desktop\\FilmesBD.WebAPI.slnx\\Repositories\\GeneroRepository.cs",
-              "RelativeToolTip": "Repositories\\GeneroRepository.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAowDgAAAAAAAAAAAAAAA==",
+              "Title": "FilmeDTO.cs",
+              "DocumentMoniker": "C:\\Users\\45193262813\\Desktop\\FilmesBD\\FilmesBD.WebAPI.slnx\\DTO\\FilmeDTO.cs",
+              "RelativeDocumentMoniker": "DTO\\FilmeDTO.cs",
+              "ToolTip": "C:\\Users\\45193262813\\Desktop\\FilmesBD\\FilmesBD.WebAPI.slnx\\DTO\\FilmeDTO.cs",
+              "RelativeToolTip": "DTO\\FilmeDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-19T18:54:17.673Z",
+              "WhenOpened": "2026-03-03T16:06:48.089Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "C:\\Users\\45193262813\\Desktop\\FilmesBD\\FilmesBD.WebAPI.slnx\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "Controllers\\LoginController.cs",
+              "ToolTip": "C:\\Users\\45193262813\\Desktop\\FilmesBD\\FilmesBD.WebAPI.slnx\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "Controllers\\LoginController.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAYwC4AAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-03T13:24:11.984Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FilmeController.cs",
+              "DocumentMoniker": "C:\\Users\\45193262813\\Desktop\\FilmesBD\\FilmesBD.WebAPI.slnx\\Controllers\\FilmeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\FilmeController.cs",
+              "ToolTip": "C:\\Users\\45193262813\\Desktop\\FilmesBD\\FilmesBD.WebAPI.slnx\\Controllers\\FilmeController.cs*",
+              "RelativeToolTip": "Controllers\\FilmeController.cs*",
+              "ViewState": "AgIAABwAAAAAAAAAAAAgwCYAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-03T12:09:20.086Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\45193262813\\Desktop\\FilmesBD.WebAPI.slnx\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\45193262813\\Desktop\\FilmesBD.WebAPI.slnx\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "Criptografia.cs",
+              "DocumentMoniker": "C:\\Users\\45193262813\\Desktop\\FilmesBD\\FilmesBD.WebAPI.slnx\\Utils\\Criptografia.cs",
+              "RelativeDocumentMoniker": "Utils\\Criptografia.cs",
+              "ToolTip": "C:\\Users\\45193262813\\Desktop\\FilmesBD\\FilmesBD.WebAPI.slnx\\Utils\\Criptografia.cs",
+              "RelativeToolTip": "Utils\\Criptografia.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-19T17:46:24.995Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-26T14:19:07.582Z"
             }
           ]
         }

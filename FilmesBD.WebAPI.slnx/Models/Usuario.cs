@@ -7,6 +7,7 @@ using Microsoft.EntityFrameworkCore;
 namespace FilmesBD.WebAPI.slnx.Models;
 
 [Table("Usuario")]
+[Index("Email", Name = "UQ_Usuario_Email", IsUnique = true)]
 public partial class Usuario
 {
     [Key]
@@ -21,4 +22,8 @@ public partial class Usuario
     [StringLength(60)]
     [Unicode(false)]
     public string Senha { get; set; } = null!;
+
+    [StringLength(256)]
+    [Unicode(false)]
+    public string Email { get; set; } = null!;
 }

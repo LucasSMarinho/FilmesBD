@@ -1,5 +1,7 @@
+using Azure.Core;
 using FilmesBD.WebAPI.slnx.BdContextFilme;
 using FilmesBD.WebAPI.slnx.Interfaces;
+using FilmesBD.WebAPI.slnx.Models;
 using FilmesBD.WebAPI.slnx.Repositories;
 using Microsoft.AspNetCore.Connections;
 using Microsoft.EntityFrameworkCore;
@@ -19,7 +21,7 @@ builder.Services.AddScoped<IGeneroRepository, GeneroRepository>();
 builder.Services.AddScoped<IFilmeRepository, FilmeRepository>();
 builder.Services.AddScoped<IUsuarioRepository, UsuarioRepository>();
 
-//adiciona o serviço de jwt Bearer (metodo de autenticação)
+//adiciona o ser viço de jwt Bearer (metodo de autenticação)
 
 builder.Services.AddAuthentication(options =>
 {
@@ -122,6 +124,7 @@ if(app.Environment.IsDevelopment())
 }
 
 app.UseStaticFiles();
+app.UseCors("CarsPolicy");
 app.UseAuthentication();
 app.UseAuthorization();   
 

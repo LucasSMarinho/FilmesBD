@@ -1,6 +1,7 @@
 ﻿using FilmesBD.WebAPI.slnx.BdContextFilme;
 using FilmesBD.WebAPI.slnx.Interfaces;
 using FilmesBD.WebAPI.slnx.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace FilmesBD.WebAPI.slnx.Repositories
 {
@@ -110,7 +111,7 @@ namespace FilmesBD.WebAPI.slnx.Repositories
         {
             try
             {
-                List<Filme> listaFilmes = _context.Filmes.ToList();
+                List<Filme> listaFilmes = _context.Filmes.Include(f  => f.IdGeneroNavigation).ToList();
 
                 return listaFilmes;
             }

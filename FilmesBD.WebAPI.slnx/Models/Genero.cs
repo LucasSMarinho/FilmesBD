@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using System.Text.Json.Serialization;
 using Microsoft.EntityFrameworkCore;
 
 namespace FilmesBD.WebAPI.slnx.Models;
@@ -19,5 +20,6 @@ public partial class Genero
     public string Nome { get; set; } = null!;
 
     [InverseProperty("IdGeneroNavigation")]
+    [JsonIgnore]
     public virtual ICollection<Filme> Filmes { get; set; } = new List<Filme>();
 }

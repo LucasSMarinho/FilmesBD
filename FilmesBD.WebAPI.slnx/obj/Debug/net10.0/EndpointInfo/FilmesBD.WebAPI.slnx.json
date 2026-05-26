@@ -218,17 +218,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/Genero"
+                "$ref": "#/components/schemas/GeneroDTO"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/Genero"
+                "$ref": "#/components/schemas/GeneroDTO"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/Genero"
+                "$ref": "#/components/schemas/GeneroDTO"
               }
             }
           }
@@ -291,29 +291,6 @@
           }
         }
       },
-      "delete": {
-        "tags": [
-          "Genero"
-        ],
-        "parameters": [
-          {
-            "name": "id",
-            "in": "path",
-            "required": true,
-            "schema": {
-              "type": "string",
-              "format": "uuid"
-            }
-          }
-        ],
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
-    },
-    "/api/Genero/{Id}": {
       "put": {
         "tags": [
           "Genero"
@@ -333,21 +310,42 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/Genero"
+                "$ref": "#/components/schemas/GeneroDTO"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/Genero"
+                "$ref": "#/components/schemas/GeneroDTO"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/Genero"
+                "$ref": "#/components/schemas/GeneroDTO"
               }
             }
           }
         },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Genero"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
         "responses": {
           "200": {
             "description": "OK"
@@ -467,12 +465,15 @@
             "minLength": 0,
             "type": "string",
             "nullable": true
-          },
-          "filmes": {
-            "type": "array",
-            "items": {
-              "$ref": "#/components/schemas/Filme"
-            },
+          }
+        },
+        "additionalProperties": false
+      },
+      "GeneroDTO": {
+        "type": "object",
+        "properties": {
+          "nome": {
+            "type": "string",
             "nullable": true
           }
         },

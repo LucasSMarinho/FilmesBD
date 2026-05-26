@@ -39,7 +39,7 @@ namespace FilmesBD.WebAPI.slnx.Repositories
         {
             try
             {
-                Genero generoBuscado = _context.Generos.Find(id.ToString())!;
+                var  generoBuscado = _context.Generos.Find(id.ToString())!;
                 
                 if ( generoBuscado != null ) 
                 {

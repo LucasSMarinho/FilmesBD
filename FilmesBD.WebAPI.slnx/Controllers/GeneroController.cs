@@ -1,4 +1,5 @@
-﻿using FilmesBD.WebAPI.slnx.Interfaces;
+﻿using FilmesBD.WebAPI.slnx.DTO;
+using FilmesBD.WebAPI.slnx.Interfaces;
 using FilmesBD.WebAPI.slnx.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -41,14 +42,19 @@ public class GeneroController : ControllerBase
             return BadRequest(e.Message);
         }
     }
-
+     
 
     [HttpPost]
 
-    public IActionResult Post(Genero novoGenero)
+    public IActionResult Post(GeneroDTO genero)
     {
         try
         {
+            var novoGenero = new Genero
+            {
+                Nome = genero.Nome!
+            };
+
             _generoRepository.Cadastrar(novoGenero);
 
             return StatusCode(201);
@@ -59,14 +65,20 @@ public class GeneroController : ControllerBase
         }
     }
 
-    [HttpPut("{Id}")]
+    [HttpPut("{id}")]
 
-    public IActionResult Put(Guid id, Genero generoAtualizado)
+    public IActionResult Put(Guid id, GeneroDTO genero)
     {
         try
         {
+            var generoAtualizado = new Genero
+            {
+                Nome = genero.Nome!
+            };
+
+
             _generoRepository.AtualizarIdUrl(id, generoAtualizado);
-            return NoContent();
+            return Ok(_generoRepository.BuscarPorId(id));
         }
         catch (Exception erro)
         {

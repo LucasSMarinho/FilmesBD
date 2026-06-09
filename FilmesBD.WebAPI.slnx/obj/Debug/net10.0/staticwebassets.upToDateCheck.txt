@@ -1,2 +1,4 @@
 wwwroot\imagens\ef521724-fccf-4824-93a3-640628f41a0a.jpg
 wwwroot\imagens\b2513e1f-df39-44fa-ab60-1231740b359b.jpg
+wwwroot\imagens\b40e0ccc-9825-4be1-b61e-aa6b8acf83aa.webp
+wwwroot\imagens\58019237-7619-490b-bd99-f88d14101130.jpg

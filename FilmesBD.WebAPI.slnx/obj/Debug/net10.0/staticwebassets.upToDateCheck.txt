@@ -2,3 +2,5 @@ wwwroot\imagens\ef521724-fccf-4824-93a3-640628f41a0a.jpg
 wwwroot\imagens\b2513e1f-df39-44fa-ab60-1231740b359b.jpg
 wwwroot\imagens\b40e0ccc-9825-4be1-b61e-aa6b8acf83aa.webp
 wwwroot\imagens\58019237-7619-490b-bd99-f88d14101130.jpg
+wwwroot\imagens\cdd1fa8f-15a5-46a7-aed3-2f7fed5f79cc.jpg
+wwwroot\imagens\d6d3ddc6-9016-4219-997f-bc9b5c16007a.webp

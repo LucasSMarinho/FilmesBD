@@ -1,4 +1,5 @@
-﻿using FilmesBD.WebAPI.slnx.Interfaces;
+﻿using FilmesBD.WebAPI.slnx.DTO;
+using FilmesBD.WebAPI.slnx.Interfaces;
 using FilmesBD.WebAPI.slnx.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -19,10 +20,18 @@ public class UsuarioController : ControllerBase
 
     [HttpPost]
 
-    public IActionResult Post(Usuario novoUsuario)
+    public IActionResult Post(UsuarioDTO usuario)
     {
         try
         {
+
+            var novoUsuario = new Usuario
+            {
+                Nome = usuario.Nome!,
+                Senha = usuario.Senha!,
+                Email = usuario.email!
+            };
+
             _usuarioRepository.Cadastrar(novoUsuario);
 
             return StatusCode(201, novoUsuario);

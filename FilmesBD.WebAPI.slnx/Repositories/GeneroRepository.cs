@@ -107,7 +107,7 @@ namespace FilmesBD.WebAPI.slnx.Repositories
         {
             try
             {
-                List<Genero> ListaGenero = _context.Generos.ToList();
+                List<Genero> ListaGenero = _context.Generos.OrderBy(e => e.Nome).ToList();
                 return ListaGenero;
             }
             catch (Exception)

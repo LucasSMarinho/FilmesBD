@@ -111,7 +111,7 @@ namespace FilmesBD.WebAPI.slnx.Repositories
         {
             try
             {
-                List<Filme> listaFilmes = _context.Filmes.Include(f  => f.IdGeneroNavigation).ToList();
+                List<Filme> listaFilmes = _context.Filmes.Include(f  => f.IdGeneroNavigation).OrderBy(f => f.Titulo).ToList();
 
                 return listaFilmes;
             }

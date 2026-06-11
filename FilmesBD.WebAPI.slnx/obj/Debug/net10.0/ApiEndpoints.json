@@ -234,8 +234,8 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "novoUsuario",
-        "Type": "FilmesBD.WebAPI.slnx.Models.Usuario",
+        "Name": "usuario",
+        "Type": "FilmesBD.WebAPI.slnx.DTO.UsuarioDTO",
         "IsRequired": true
       }
     ],

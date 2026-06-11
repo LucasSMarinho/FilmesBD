@@ -393,17 +393,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/Usuario"
+                "$ref": "#/components/schemas/UsuarioDTO"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/Usuario"
+                "$ref": "#/components/schemas/UsuarioDTO"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/Usuario"
+                "$ref": "#/components/schemas/UsuarioDTO"
               }
             }
           }
@@ -497,32 +497,25 @@
         },
         "additionalProperties": false
       },
-      "Usuario": {
+      "UsuarioDTO": {
+        "required": [
+          "email",
+          "nome",
+          "senha"
+        ],
         "type": "object",
         "properties": {
-          "idUsuario": {
-            "maxLength": 40,
-            "minLength": 0,
-            "type": "string",
-            "nullable": true
-          },
-          "nome": {
-            "maxLength": 100,
-            "minLength": 0,
-            "type": "string",
-            "nullable": true
+          "email": {
+            "minLength": 1,
+            "type": "string"
           },
           "senha": {
-            "maxLength": 60,
-            "minLength": 0,
-            "type": "string",
-            "nullable": true
+            "minLength": 1,
+            "type": "string"
           },
-          "email": {
-            "maxLength": 256,
-            "minLength": 0,
-            "type": "string",
-            "nullable": true
+          "nome": {
+            "minLength": 1,
+            "type": "string"
           }
         },
         "additionalProperties": false
